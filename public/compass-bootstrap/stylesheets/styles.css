@@ -8041,7 +8041,21 @@ button.close {
   margin: 0 auto;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
+.translated {
+  width: 100%;
+  height: 20em;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* line 26, ../sass/styles.scss */
 .container .jumbotron {
   padding: 5em 20em;
+}
+
+/* line 30, ../sass/styles.scss */
+.buttonHolder {
+  text-align: center;
 }

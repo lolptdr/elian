@@ -13,9 +13,9 @@ get '/' do
   erb :index
 end
 
-post '/translate' do
-  
-  redirect to '/translate'
+post '/' do
+  raw = params["usrform"]
+  # redirect to '/'
 end
 
 get '/translate' do
