@@ -1,7 +1,14 @@
-<center>
-  <b>Input text to translate:</u><br />
-  <form action='/translate' method='POST'>
-    <input type='text' name='translate' placeholder='Type or paste text here'><br />
-    <input type='submit' value='Submit'>
-  </form><br/><br />
-</center>
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+  <div class="col-xs-6">
+  	<form action='/translate' method='POST'>
+  	  <input type='text' class="untranslated" name='translate' placeholder='Type or paste text here'><br />
+  	  <input type='submit' value='Submit'>
+  	</form>
+  </div>
+  <div class="col-xs-6">
+  	<div class="receive">
+  		<%= @trasnlated_text %>
+  	</div>
+  </div>
+</div>
