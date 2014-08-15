@@ -8059,3 +8059,9 @@ button.close {
 .buttonHolder {
   text-align: center;
 }
+
+@font-face {
+  font-family: Elian Script Rev 2.0;
+  src: url(https://drive.google.com/open?id=0B5-liVpjMkQaS2hCLTZfUlRuc0k&authuser=0);
+  font-weight: 400;
+}

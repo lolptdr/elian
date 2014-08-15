@@ -18,6 +18,6 @@ post '/' do
   # redirect to '/'
 end
 
-get '/translate' do
-  erb :index
-end
+# get '/translate' do
+#   erb :index
+# end
